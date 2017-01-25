@@ -7,4 +7,4 @@
 FROM ubuntu
 
 # Sample output
-echo "Sample lang"
+RUN echo "Sample lang"
