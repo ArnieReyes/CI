@@ -4,7 +4,7 @@
 ############################################################
 
 # Set the base image to Ubuntu
-FROM ubuntu
+FROM alpine
 
 # Sample output
-RUN echo "Sample lang"
+CMD ["echo","Sample lang"]
